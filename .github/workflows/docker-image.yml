@@ -19,5 +19,5 @@ jobs:
     - name: Build the Docker image
       run: |
           docker build . --file Dockerfile --tag graalvm-ce:21-latest
-          docker tag graalvm-ce:21-latest ghcr.io/Reizor-Hosting/yolks/graalvm-ce:21-latest
+          docker tag graalvm-ce:21-latest ghcr.io/reizor-hosting/yolks/graalvm-ce:21-latest
           docker push ghcr.io/reizor-hosting/yolks/graalvm-ce:21-latest
