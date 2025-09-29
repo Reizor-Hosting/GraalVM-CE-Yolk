@@ -1,4 +1,4 @@
-FROM ghcr.io/graalvm/jdk-community:23.0.2-ol9
+FROM ghcr.io/graalvm/jdk-community:25.0.0-ol8
 RUN microdnf install -y curl ca-certificates openssl git tar bash sqlite fontconfig
 RUN useradd -d /home/container container
 
